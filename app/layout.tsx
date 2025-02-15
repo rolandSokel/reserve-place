@@ -1,15 +1,10 @@
 import type { Metadata } from "next";
-import { Poppins} from "next/font/google";
 import "./globals.css";
 import { Toaster } from "react-hot-toast";
+import { Poppins } from "next/font/google";
 
-// const roboto = Roboto({
-//       weight: '400',
-//       subsets: ['latin'],
-//       display: 'swap',
-//     })
 
-  const poppins = Poppins({weight:"400",});
+const poppins = Poppins({ weight: "400", subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
